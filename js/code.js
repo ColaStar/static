@@ -1,6 +1,10 @@
 // JavaScript Document
 $(document).ready(function () {
-    document.write("<canvas id='matrixBG' width='2560' height='1440'></canvas>");  
+    var bodyobj = document.querySelector("body"); 
+    var divobj = document.createElement("div"); 
+    divobj.innerHTML= "<canvas id='matrixBG' width='2560' height='1440'></canvas>"
+    bodyobj.appendChild(divobj);
+    // document.write("");  
     $('#matrixBG').css({"position": "fixed",
         "top": 0,
         "left": 0,
