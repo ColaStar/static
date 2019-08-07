@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('#matrixBG').css({"position": "fixed",
         "top": 0,
         "left": 0,
-        "z-index": -1,
+        "z-index": 9999,
         "opacity": 0.8,})
         console.log('canvas')
     var width = matrixBG.width = window.screen.width;
