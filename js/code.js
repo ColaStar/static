@@ -1,6 +1,12 @@
 // JavaScript Document
 $(document).ready(function () {
     document.write("<canvas id='matrixBG' width='2560' height='1440'></canvas>");  
+    $('#matrixBG').css({"position": "fixed",
+        "top": 0,
+        "left": 0,
+        "z-index": -1,
+        "opacity": 0.8,})
+        console.log('canvas')
     var width = matrixBG.width = window.screen.width;
     var height = matrixBG.height = window.screen.height;
     var yPositions = Array(300).join(0).split('');
