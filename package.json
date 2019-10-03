@@ -1,0 +1,19 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "start": "bash ./start.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColaStar/static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColaStar/static/issues"
+  },
+  "homepage": "https://github.com/ColaStar/static#readme"
+}
