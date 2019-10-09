@@ -4,7 +4,7 @@
   "description": "",
   "main": "code.js",
   "scripts": {
-    "start": "bash git.sh"
+    "start": "bash run.sh"
   },
   "repository": {
     "type": "git",
