@@ -17,7 +17,7 @@ printf '查看git 变动'
 
 git st
 
-printf '本地缓存'
+printf '本地缓存-st'
 
 git ac -m 'deploy'
 
