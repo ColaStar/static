@@ -17,12 +17,13 @@ printf '查看git 变动'
 
 git st
 
+printf '拉代码'
+git pull
+
 printf '本地缓存-st'
 
 git ac -m 'deploy'
 
-printf '拉代码'
-git pull
 printf 'push代码'
 git push
 
