@@ -28,6 +28,11 @@ printf 'push代码'
 
 git push
 
+echo '上传静态文件完毕'
+
+
+
+
 
 
 # 如果发布到 https://<USERNAME>.github.io
